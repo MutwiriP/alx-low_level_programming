@@ -1,21 +1,11 @@
-#include "main.h"
-
-/**
-  * print_number - Prints any integer with putchar
-  * @n: Number to prints
-  *
-  * Return: Nothing
-  */
-void print_number(int n)
-{
-int x;
-if (n < 0)
-{
-_putchar('-');
-n = n * -1;
-}
-x = n;
-if (x / 10)
-print_number(x / 10);
-_putchar(x % 10 + '0');
-}
+int _putchar(char c);
+char *_strcat(char *dest, char *src);
+char *_strncat(char *dest, char *src, int n);
+char *_strncpy(char *dest, char *src, int n);
+int _strcmp(char *s1, char *s2);
+void reverse_array(int *a, int n);
+char *string_toupper(char *);
+char *cap_string(char *);
+char *leet(char *);
+char *rot13(char *);
+void print_number(int n);
