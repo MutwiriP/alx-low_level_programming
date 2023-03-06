@@ -28,7 +28,7 @@ p = &haystack[j];
 l = j;
 a = 0;
 for (k = 0; k < count; k++)
-}
+{
 if (haystack[l] == needle[k])
 a++;
 l++;
